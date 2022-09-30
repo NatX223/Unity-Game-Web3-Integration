@@ -1,0 +1,24 @@
+{
+  "name": "unity-game-web3-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatX223/Unity-Game-Web3-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatX223/Unity-Game-Web3-Integration/issues"
+  },
+  "homepage": "https://github.com/NatX223/Unity-Game-Web3-Integration#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  }
+}
