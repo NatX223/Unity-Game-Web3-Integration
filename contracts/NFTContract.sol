@@ -15,6 +15,7 @@ contract NFTStore is ERC1155 {
 
     // function to mint the token to the caller
     function mint(address to, uint id) public {
+        require(msg.sender == deployer, "only deployer can mint NFT skin");
         _mint(to, id, 1, 0);
     }
 }
