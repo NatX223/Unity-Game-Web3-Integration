@@ -32,9 +32,9 @@ public class WebLogin : MonoBehaviour
             account = ConnectAccount();
         };
         // save account for next scene
-        PlayerPrefs.SetString("Account", account);
-        PlayerPrefs.SetFloat("Coins", 0);
-        PlayerPrefs.SetInt("Boss", 0);
+        PlayerPrefs.SetString("Account", account); // the users address
+        PlayerPrefs.SetFloat("Coins", 0); // in-game currency
+        PlayerPrefs.SetInt("Boss", 0); // to be accessed and changed to one when the user defeats the boss.
         // reset login message
         SetConnectAccount("You are now Connected");
         // load next scene
