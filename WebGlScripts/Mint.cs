@@ -123,7 +123,7 @@ public class Web3PrivateKeyMintingNFT : MonoBehaviour
 
         async public void mintRareSkin1 ()
     {
-        int Boss = PlayerPrefs
+        int Boss = PlayerPrefs;
         string id = "11";
         BigInteger balanceOf = await ERC1155.BalanceOf(chain, network, contract, playerAccount, id);
         if(balanceOf >= 1) {
@@ -152,7 +152,7 @@ public class Web3PrivateKeyMintingNFT : MonoBehaviour
 
         async public void mintRareSkin2 ()
     {
-        int Boss = PlayerPrefs
+        int Boss = PlayerPrefs;
         string id = "12";
         BigInteger balanceOf = await ERC1155.BalanceOf(chain, network, contract, playerAccount, id);
         if(balanceOf >= 1) {
@@ -181,7 +181,7 @@ public class Web3PrivateKeyMintingNFT : MonoBehaviour
 
         async public void mintRareSkin3 ()
     {
-        int Boss = PlayerPrefs
+        int Boss = PlayerPrefs;
         string id = "13";
         BigInteger balanceOf = await ERC1155.BalanceOf(chain, network, contract, playerAccount, id);
         if(balanceOf >= 1) {
